@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adderly.Top - FAQ</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9240026161894199"
+    crossorigin="anonymous"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-68MY39SKZ9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-68MY39SKZ9');
+    </script>
+    <meta property="og:image" content="https://adderly.top/images/favicon.png">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="base.css">
+    
+    <script>
+        const toggleDisplay = (el, condition, display) => el.style.display = condition ? display : 'none';
+        let existingNews = new Map();
+    </script>
+
+    <script>
+        document.addEventListener('keydown', function(e) {
+            // F12
+            if (e.key === 'F12' || e.keyCode === 123) {
+                e.preventDefault();
+                return false;
+            }
+            
+            if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+                e.preventDefault();
+                return false;
+            }
+
+            if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+                e.preventDefault();
+                return false;
+            }
+
+            if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+                e.preventDefault();
+                return false;
+            }
+
+            if (e.ctrlKey && e.key === 'u') {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            return false;
+        });
+    </script>
+
+    <meta property="og:title" content="Часто задаваемые вопросы...">
+    <meta property="og:keywords" content="adderly, adderlyfun, adderly fun, adderly top, adderlytop, марк аддерли, аддерли, аддерли фан, аддерли топ, аддерлитоп, сборки от аддерли, сборки от марка аддерли, сборки виндовс, скачать сборки, windows bootlegs, скачать сборку виндовс, скачать windows lite, windows lite, adderlyos, сайт марка аддерли, сайт аддерли, makuos, maku os, makuos 10, makuos 10 lite, makuos 11, GPT, MBR, 0x80070003, 0xC0000005, Как установить Windows, как поставить винду, установить, поставить, виндовс">
+    <meta property="og:description" content="Здесь вы можете прочитать информацию о часто задаваемых вопросах.">
+    <meta name="description" content="Здесь вы можете прочитать информацию о часто задаваемых вопросах.">
+    <meta name="keywords" content="adderly, adderlyfun, adderly fun, adderly top, adderlytop, марк аддерли, аддерли, аддерли фан, аддерли топ, аддерлитоп, сборки от аддерли, сборки от марка аддерли, сборки виндовс, скачать сборки, windows bootlegs, скачать сборку виндовс, скачать windows lite, windows lite, adderlyos, сайт марка аддерли, сайт аддерли, makuos, maku os, makuos 10, makuos 10 lite, makuos 11, GPT, MBR, 0x80070003, 0xC0000005, Как установить Windows, как поставить винду, установить, поставить, виндовс">
+    <meta property="og:image" content="images/favicon.png">
+    <style>
+      .builds-header{text-align: center;padding-top: 30px;}
+      .ty{padding-bottom: 30px;}
+    </style>
+</head>
+
+
+<body>
+<header>
+    <a href="index" class="logo">
+        <img src="images/favicon.png" alt="MakuT" class="site-icon">Adderly.Top
+    </a>
+        <nav>
+            <ul>
+                <li><a href="builds">Сборки</a></li>
+                <li><a href="makutweaker">MakuTweaker</a></li>
+                <li><a href="support">Поддержать</a></li>
+            </ul>
+        </nav>
+        <img src="icons/burger.svg" alt="Меню" id="burger">
+</header>
+
+<main>
+        <h1 class="builds-header">Часто задаваемые вопросы по поводу сборок...</h1>
+
+    <section style="max-width: 1200px; margin: 0 auto; padding: 0 40px; text-align: justify;">
+          <br>
+  <h1>FAQ</h1>
+  <h2>1) У меня при записи образа на флешку через Rufus, высвечивается сообщение: "Выбранный образ ISO содержит отозванный загрузчик UEFI". Что делать?</h2>
+  <div class="answer">
+    Такое сообщение высвечивается абсолютно во всех образах Windows начиная с версий позже 2024 года. Решить просто, достаточно нажать "ОК". Просто Rufus предупреждает Вас о возможной ошибке 0xc0000428 (в которой говориться о том, что цифровую подпись проверить не удаётся) при включенном Secure Boot в BIOS`е. Такая ошибка на практике встречается очень редко, но имейте введу, если всё же встретитесь с данной ошибкой, будет два пути: Либо отключить Secure Boot, либо в параметрах загрузки отключаем обязательную проверку подписи драйверов.
+  </div>
+
+  <br>  <h2>2) При установке Windows меня просят загрузить драйвер для диска.</h2>
+  <div class="answer">
+    Если такое произошло, то вам следует зайти на сайт производителя вашего диска и загрузить все необходимые драйвера. На установочной флешке создайте отдельную папку с драйверами, по типу "Drivers" и перекиньте туда только что скаченное содержимое с сайта. В окне с установкой драйвера указываете путь до папки вручную, и после чего, выбираете нужный вам драйвер для диска. Также с решением проблемы помогает обновление BIOS или  возможно будет достаточно переставить USB-флешку из порта 3.0 в порт 2.0.
+  </div>
+
+  <br><h2>3) В меню выбора дисков пишет: "Не удалось создать новый или найти существующий раздел".</h2>
+  <div class="answer">
+    Удалите раздел на котором вы устанавливаете систему. Чтобы он был не просто пустой, а ещё и неразмеченный (Unallocated). Если вам это не помогает, стоит поставить другие драйвера на свой диск.
+  </div>
+
+  <br><h2>4) После установки Windows мне снова предлагают его установить.</h2>
+  <div class="answer">
+    Просто перезагрузитесь, предварительно выньте флешку из USB-порта.
+  </div>
+
+  <br><h2>5) Сместилась звёздочка под пунктом "GPT" в правую сторону при выводе списка дисков в diskpart. Не могу понять: у меня диск MBR или GPT?</h2>
+  <div class="answer">
+    Если вы обнаружили звёздочку напротив одного из дисков, это свидетельствует о том, что диск - GPT. Из-за корявости локализации Windows на русском языке, символы просто сместились в сторону. А если напротив нужного диска вы не нашли звёздочки, то значит диск - MBR.
+  </div>
+
+  <br><h2>6) Windows на экране блокировки запрашивает какой-то пароль, хотя я его не устанавливал!</h2>
+  <div class="answer">
+    Тогда просто нажмите "Enter" и вы попадёте в систему. Если вы хотите поменять пароль, то оставьте графу "старый пароль" пустым.  </div>
+
+  <br><h2>7) Можно ли как-то вернуть Microsoft Store обратно в систему?</h2>
+  <div class="answer">
+    Зависит от самой сборки. Если вы скачали сборку без Microsoft Store, то вернуть его у Вас не получиться. Поэтому если он Вам нужен, скачивайте сборку с уже встроенным магазином приложений. 
+  </div>
+
+  <br><h2>8) Какую версию Windows мне лучше скачать? Я в этом совершенно не разбираюсь.</h2>
+  <div class="answer">
+    Если у Вас условно процессор до 2013 года, рекомендуется не эксперементировать с Windows 11, а лучше поставить Windows 10. Допустим у Вас Intel Core i5 4 поколения или процессор 2014 года, тогда вы можете попробовать Windows 11 Lite. А если у Вас современное и мощное "железо", то ставьте Windows 11 24H2, так как для таких устройств Windows 11 Lite будет бесполезен и не принесёт никакого прироста производительности.
+  </div>
+
+  <br>
+  <h1>Ошибки Windows</h1>
+  <h2>Ошибка на 69-71% 0xC0000005</h2>
+  <div class="answer">
+Для решение данной проблемы воспользуетесь следующими способами:<br>
+
+1)  Попробуйте начать установку заново, это действительно может помочь.<br>
+2) Вставьте USB-флешку именно в USB 2.0 порт, а не в 3.0.<br>
+3) Так же помогает отключение Secure Boot во время установки.<br>
+4) Включение CSM в BIOS с небольшим шансом так же может решить проблему.<br>
+5) Самое популярное решение - не использовать программу для записи образа Ventoy, и записать флешку заново с помощью Rufus.<br>
+  </div><br>
+
+  <h2>Ошибка 0x80070003</h2>
+  <div class="answer">
+1) Проверьте флешку. Она может быть неисправна.<br>
+2) Можете попробывать отключение Secure Boot во время установки.<br>
+3) Включение CSM в BIOS с небольшим шансом так же может решить проблему.<br>
+4) Не использовать программу для записи образа Ventoy, и записать флешку заново с помощью Rufus.<br>
+  </div>
+<br>
+  <h2>Ошибка 0x8007025D</h2>
+  <div class="answer">
+1) Проблема может крыться с оперативной памятью. Попробуйте протестировать память встроенными средствами Windows или чем-то другим.<br>
+2) Уберите все лишние устройства во время установки Windows - это также может Вам помочь.<br>
+3) Перед записью образа на флешку, попробуйте медленное форматирование.<br>
+4) Также может быть, что ваша флешка повреждена, смените её и повторите попытку.<br>
+  </div>
+<br>
+  <h2>При загрузке системы ошибка 0хС0000225 (winload.efi)</h2>
+  <div class="answer">
+1) Попробуйте вынуть батарейку BIOS, подержать 30 секунд и воткнуть обратно. Настройки BIOS сбросятся, а затем, повторяем попытку загрузки.<br>
+2) Если не помог первый вариант, попробуйте обновить BIOS.<br>
+3) Загружаемся с флешки в средство восстановления и выбираем способ восстановления через командную строку. Вводим "diskpart" и "list vol". Вы должны иметь тома и один из них должен быть в FAT32 на 100-200МБ. Если такой том отсутствует, выйдите из "diskpart" и вводим команду "bcdboot C:\windows". Если операция прошла с ошибками, пробуем "bootrec.exe /RebuildBcd". Затем перезагрузитесь.<br>
+4) Попробуйте исправление системных файлов:<br>
+"sfc /scannow /offbootdir=C:\ /offwindir=C:\Windows"<br>
+5) Также может быть вариант с тем, что у Вас есть этот том и исправления не помогают. Тогда заходим обратно в "diskpart" и пишем "list vol". Ищем наш раздел на 100-200МБ и пишем "sel vol <ваш номер тома>". Присвойте ей любую незанятую букву, чтобы мы могли продолжить дальнейшие работы с томом: "assign letter=<ваша латинская буква>". И наконец, пропишите: <br>
+"bcdboot C:\windows /s <ваша назначенная латинская буква>: /f UEFI"<br><br>
+    <h3 class="ty">Спасибо MegicalAmongus за помощь с FAQ!</h1>
+  </div>
+</main>
+<footer>
+        <a href="https://t.me/adderly324" class="social-link" target="_blank" rel="noopener noreferrer">
+            <img src="icons/tg.png" alt="Telegram Icon" class="social-icon">
+        </a>
+        <a href="https://youtube.com/@MakuAdarii" class="social-link" target="_blank" rel="noopener noreferrer">
+            <img src="icons/yt.png" alt="YouTube Icon" class="social-icon">
+        </a>
+        <a href="https://www.boosty.to/adderly" class="social-link" target="_blank" rel="noopener noreferrer">
+            <img src="icons/boosty.png" alt="Boosty Icon" class="social-icon">
+        </a>
+        <p id="trademark">© 2025 Adderly.Top // Марк Аддерли</p>
+    </footer>
+<script src="burger.js"></script>
+</body>
+</html>
